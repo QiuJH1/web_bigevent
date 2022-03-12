@@ -18,11 +18,11 @@ body {
   transform: translate(-50%, -50%);
 }
 
+
 .title-box {
   height: 60px;
   background: url('/assets/images/login_title.png') no-repeat center;
 }
-
 .reg-box {
   display: none;
 }
@@ -33,7 +33,8 @@ body {
 
 .links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end;    /* 横向布局 居右 */
+
 }
 
 .links a {
@@ -45,11 +46,16 @@ body {
 }
 
 .layui-icon {
+  /* 设置输入框前图标的位置。子绝父相，就能把图标移到文本框里面 */
   position: absolute;
   left: 10px;
   top: 10px;
 }
 
 .layui-input {
+  /* 因为文本框里的placeholder和图标重叠了，所以给个距离 */
   padding-left: 32px;
 }
+
+#__bs_notify__
+{display: none !important;}
