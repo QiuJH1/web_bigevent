@@ -48,8 +48,8 @@ a {
   height: 40px;
   background-color: #009688;
   border-radius: 50%;
-  line-height: 40px;
-  text-align: center;
+  line-height: 40px;  /*纵向居中*/
+  text-align: center; /*横向居中*/
   font-size: 20px;
   color: #fff;
   position: relative;
